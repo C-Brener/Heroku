@@ -2,11 +2,11 @@ import React from 'react'
 import {View, TextInput, StyleSheet, Text} from 'react-native'
 import { Entypo } from '@expo/vector-icons';
 
-export function Input({propsIcon, propsPlaceHolder}){
+export function Input({propsIcon, propsPlaceHolder, propPassword = false}){
     return(
     <View style={styles.button}>
         <Entypo name={propsIcon} size={24} color="#664986" />
-        <TextInput style={styles.input} placeholder={propsPlaceHolder} placeholderTextColor='#555'/>
+        <TextInput style={styles.input} placeholder={propsPlaceHolder} placeholderTextColor='#555' secureTextEntry={propPassword}/>
     </View>
     );
 }

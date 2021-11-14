@@ -1,5 +1,6 @@
 import React from 'react'
 import {View, Text, StyleSheet, Image, TouchableOpacity, TextInput} from 'react-native'
+{/* Image */}
 import Logo from '../assets/logo.png'
 
 {/* My Components */}
@@ -16,7 +17,7 @@ export function Login (){
                 <Text style={styles.subTitle}>Email Address</Text>
                 <Input  propsIcon={'user'} propsPlaceHolder={'Email address'}/>
                 <Text style={styles.subTitle}>Password</Text>
-                <Input propsIcon={'lock'} propsPlaceHolder={'Password'}/>
+                <Input propsIcon={'lock'} propsPlaceHolder={'Password'} propPassword={true}/>
                 <Button propsTextButton={'Log In'}/>
                 <View style={styles.border}>
                     <Text style={styles.singIn}>
