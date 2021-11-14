@@ -65,6 +65,7 @@ const styles = StyleSheet.create({
         marginTop:35
     },
     singIn:{
+        backgroundColor:'#4a5568',
         marginTop:25,
         textAlign:'center',
         alignItems:'center',
