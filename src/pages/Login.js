@@ -60,12 +60,14 @@ const styles = StyleSheet.create({
         color:'#664986'
     },
     border:{
+        flex:1,
+        backgroundColor:'#f5f5f5',
         borderTopWidth:0.4, 
-        borderColor:'#555', 
+        borderColor:'#555',
+        borderBottomEndRadius:5, 
         marginTop:35
     },
     singIn:{
-        backgroundColor:'#4a5568',
         marginTop:25,
         textAlign:'center',
         alignItems:'center',
