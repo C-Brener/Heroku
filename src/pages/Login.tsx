@@ -18,7 +18,7 @@ export function Login (){
                 <Input  propsIcon={'user'} propsPlaceHolder={'Email address'}/>
                 <Text style={styles.subTitle}>Password</Text>
                 <Input propsIcon={'lock'} propsPlaceHolder={'Password'} propPassword={true}/>
-                <Button propsTextButton={'Log In'}/>
+                <Button propsTextButton={"Log In"}/>
                 <View style={styles.border}>
                     <Text style={styles.singIn}>
                         New To Heroku? Sign Up

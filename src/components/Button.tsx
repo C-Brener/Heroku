@@ -1,7 +1,11 @@
 import React from 'react'
 import {View, TouchableOpacity, StyleSheet, Text} from 'react-native'
 
-export function Button({propsTextButton}){
+interface SkillsButton {
+    propsTextButton:string;
+}
+
+export function Button({propsTextButton}: SkillsButton){
     return(
         <TouchableOpacity style={styles.button}>
             <Text style={styles.textButton}>{propsTextButton}</Text>
