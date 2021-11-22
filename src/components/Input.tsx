@@ -2,6 +2,7 @@ import React from 'react'
 import {View, TextInput, StyleSheet, Text} from 'react-native'
 import { Entypo } from '@expo/vector-icons';
 
+
 export function Input({propsIcon, propsPlaceHolder, propPassword = false}){
     return(
     <View style={styles.button}>
