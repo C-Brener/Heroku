@@ -2,7 +2,7 @@
 
 ## ***Conceitos Aplicados***
 
-*Aplicando TypeScript ao Projeto
+* Aplicando TypeScript ao Projeto
 * Tipando Propriedades
 
 ```
